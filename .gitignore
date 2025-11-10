@@ -4,6 +4,10 @@
 __pycache__/
 *.py[cod]
 *$py.class
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
 
 # C extensions
 *.so
@@ -206,3 +210,11 @@ week5/vector_db/
 
 local/
 
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+community-contributions/
